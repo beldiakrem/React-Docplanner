@@ -1,0 +1,234 @@
+*{
+  text-decoration: none;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0px 30px;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  margin-top: -33px;
+  
+}
+.submenu{
+  position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    position: absolute;
+}
+.submenu a{
+  color: #C7C7C7;
+    line-height: 20px;
+}
+.sub:hover .submenu{
+  display: block;
+}
+.sub{
+  margin-left: -50px; 
+}
+.sub a{
+  color: #C7C7C7;
+}
+
+.logo img{
+  width: 300px;
+  margin-top: 18px;
+  
+}
+
+.titre{
+  display: flex;
+    justify-content: center;
+    font-size: 1.225rem;
+    color: #00B39B;
+    margin-bottom: 50px;
+}
+.menu{
+  display: flex;
+    list-style: none;
+    color: #C7C7C7;
+    margin-top: 26px;
+    padding-left: 330px;
+}
+.log {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.log img{
+  width: 40px;
+  margin-bottom: 30px;
+  margin-top: 52px;
+}
+.titre h2{
+  display: flex;
+  justify-content: center;
+  font-size: 2.125rem;
+  color: #00B39B;
+  
+  margin-top: 25px;
+}
+.paragraphe{
+  display: flex;
+}
+.paragraphe p{
+  color: #74748A;
+  line-height: 32px;
+}
+.for{
+  display: flex;
+    justify-content: space-around;
+    margin: 50px 63px;
+    color: whitesmoke;
+}
+.for img {
+  margin: -8px 121px;
+  padding: 50px;
+  max-width: 100%;
+}
+
+
+.patient{
+  background-color: #00CCB1;
+    width: 462px;
+    height: 390px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.doctor{
+  background-color: #3D83DF;
+    width: 462px;
+    height: 390px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.doctor img{
+  margin-top: 26px;
+
+}
+.global{
+  display: flex;
+}
+.svg{
+  display: flex;
+  flex-flow:row wrap;
+  
+}
+.svgs{
+  fill: hsla(0,0%,67%,.7);
+    padding-left: 20px;
+    margin-left: -93px;
+    list-style-type: none;
+}
+.global h2{
+  color: #00B39B;
+    width: 33%;
+    font-size: 1.625em;
+   font-weight: 300;
+}
+.platform{
+  display: flex;
+  margin-top: 32px;
+  margin-left: -100px;
+  background-color: #dbf7f7;
+  padding: 20px 186px;
+  overflow: hidden;
+  width: 100%;
+  margin: 30px -90px;
+}
+.logo-platform img{
+  margin: 24px -128px -133px;
+}
+.logo-platform h1{
+  margin-top: 70px;
+  color: #00B39B;
+  font-size: 2.125rem;
+  font-weight: 300;
+
+}
+.logo-platform p{
+  margin: 23px -12px;
+  padding: 15px;
+  font-size: .8125em;
+  color:#747489;
+  line-height: 15px;
+}
+.favories{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.favories p{
+  
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+  color:#747489;
+  line-height: 15px;
+}
+.favories h3{
+  text-align: center;
+  font-weight:bold;
+  font-size: 27px;
+  color:#3CB39E;
+  display:inline-block;
+  font-weight: 300;
+}
+
+.leader{
+  width: 230px;
+  height: 272px;
+  background-color:white;
+  /* margin: 28px 96px; */
+  border: 2px solid white;
+  border-radius: 6px;
+}
+.leader img{
+  margin: 36px 97px -12px;
+}
+
+.leader h1{
+  margin-top:30px;
+  margin-left: 47px;
+}
+
+.leader p{
+  margin-top: -18px;
+}
+.leader:nth-child(odd){
+  margin-top: 60px
+ }
+.place-button{
+  display: flex;
+}
+.pays{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: #747474;
+  margin: 0px -73px;
+}
+
+.place-button a {
+  background-color: #1E90FF;
+    color: white;
+    border-radius: 5px;
+    margin: 17px 18px;
+    text-align: center;
+    width: 115px;
+    height: 30px;
+    font-size: 14px;
+}
+.place{
+  margin-top:20px;
+}
+.tous:hover{
+  box-shadow: 2px 4px 25px -6px;
+}
